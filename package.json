@@ -1,0 +1,19 @@
+{
+  "name": "continental-assist-test",
+  "version": "1.0.0",
+  "description": "This is a work test for continental assist",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edd-dev-pro/continental-assist-test.git"
+  },
+  "author": "Eduardo Martinez <edd.dev.pro@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edd-dev-pro/continental-assist-test/issues"
+  },
+  "homepage": "https://github.com/edd-dev-pro/continental-assist-test#readme"
+}

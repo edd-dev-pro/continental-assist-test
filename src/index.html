@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root {
+            --color-primari: #f4790c;
+            --color-white: white;
+            --color-gray: #333333;
+            --color-black: #000000;
+
+            --lbre: 'Libre Baskerville', serif;
+            --comforta :'Comfortaa', cursive;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: var(--color-gray);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        .container{
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            margin: 10px 0;
+            color: var(--color-black);
+        }
+        .title {
+            font-family: 'Libre Baskerville', serif;   
+        }
+        .text-1 {
+            font-family: 'Comfortaa', cursive;
+        }
+        .text-2 {
+            font-family: 'Comfortaa', cursive;
+        }
+        .text-3 {
+            font-family: 'Comfortaa', cursive;
+        }
+        .font-1 {
+            font-family: var(--lbre);
+            color: var(--color-primari);
+            font-size: 1.875rem;
+        }
+        .date {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .date p{
+            margin-right: 1rem;
+        }
+        .box {
+            background-color: var(--color-primari);
+            width: 4rem;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .color-primary {
+            color: var(--color-primari);
+        }
+        .cupon {
+            padding: 20px;
+            background-color: var(--color-white);
+            margin-bottom: 50px;
+            position: relative;
+            border-radius: 1.2rem;
+            overflow: hidden;
+        }
+
+        header {
+            padding: 20px;
+            background-color: var(--color-gray);
+            box-shadow: -1px 7px 11px -3px rgba(0,0,0,0.82);
+            -webkit-box-shadow: -1px 7px 11px -3px rgba(0,0,0,0.82);
+            -moz-box-shadow: -1px 7px 11px -3px rgba(0,0,0,0.82);
+            margin-bottom: 5rem;
+        }
+
+        header div {
+            text-align: right;
+        }
+        input {
+            padding: .5rem;
+            font-size: 1rem;
+            border-radius: .5rem;
+            border: none;
+            font-family: 'Comfortaa', cursive;
+        }
+        button {
+            padding: .5rem;
+            font-size: 1rem;
+            border-radius: .5rem;
+            border: none;
+            background-color: var(--color-primari);
+            color: var(--color-white);
+            cursor: pointer;
+            font-family: 'Comfortaa', cursive;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <input id="ipt" type="text" placeholder="Igresa el Codigo">
+            <button id="btn">Buscar</button>
+        </div>
+    </header>
+    <main>
+        <section id="container" class="container"></section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
